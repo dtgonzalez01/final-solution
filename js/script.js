@@ -117,7 +117,7 @@ function buildAndShowHomeHTML (categories) {
       //
       //chosenCategoryShortName
       //var tmp = "'" + chosenCategoryShortName + "'";
-      var homeHtmlToInsertIntoMainPage = dc.loadMenuItems(chosenCategoryShortName.toString()); //"<h3>hola</h3> chosenCategoryShortName";
+      var homeHtmlToInsertIntoMainPage = dc.loadMenuItems(chosenCategoryShortName + ''); //"<h3>hola</h3> chosenCategoryShortName";
 
 
       // TODO: STEP 4: Insert the produced HTML in STEP 3 into the main page
