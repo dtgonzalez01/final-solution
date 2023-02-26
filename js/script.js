@@ -115,7 +115,7 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
-      var homeHtmlToInsertIntoMainPage = buildAndShowCategoriesHTML(chosenCategoryShortName); //"<h3>hola</h3> chosenCategoryShortName";
+      var homeHtmlToInsertIntoMainPage = loadMenuItems(chosenCategoryShortName); //"<h3>hola</h3> chosenCategoryShortName";
 
 
       // TODO: STEP 4: Insert the produced HTML in STEP 3 into the main page
