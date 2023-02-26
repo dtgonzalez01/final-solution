@@ -116,11 +116,8 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
-      //chosenCategoryShortName
 
-      //var homeHtmlToInsertIntoMainPage = $dc.loadMenuItem('L'); //"<h3>hola</h3> chosenCategoryShortName";
-
-     responseText = insertProperty(responseText, "randomCategoryShortName", chooseRandomCategory);
+     responseText = insertProperty(responseText, "randomCategoryShortName", chosenCategoryShortName);
 
      document.querySelector("#main-content").innerHTML = responseText;
 
@@ -128,7 +125,6 @@ function buildAndShowHomeHTML (categories) {
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
       // ....
-      //$dc.insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
 
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
